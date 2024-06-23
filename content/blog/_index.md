@@ -1,6 +1,6 @@
 ---
-title: "Posts"
-description: "Learn about some of my projects."
+title: "Blog"
+description: "Writings of all of my blog posts"
 cascade:
   showReadingTime: false
 ---
