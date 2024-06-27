@@ -2,7 +2,7 @@
 title: "Why Free Hosting is Bad"
 date: 2024-06-27
 description: "Helpful explanations and thoughts on why free hosting services are bad"
-tags: ["discord.py"]
+tags: ["discord.py", "discord bots", "discord"]
 cascade:
   showReadingTime: false
 ---
@@ -40,11 +40,11 @@ to operate. Examples of these include:
   - Shared CPUs
   - Shared and/or low memory counts
 
-    Touching deeper with shared IP addresses, they pose an risk of incurring ratelimits
-    and potential Cloudflare bans. When an service runs an large amount of bots on one IP address, all of the those requests to Discord are sent so frequently that
-    ratelimits trip, resulting in the infamous HTTP 429 error. If this continues in
-    an sustained matter, then Cloudflare would issue an temporary ban. This usually
-    cripples an bot's ability to interact with Discord.
+  Touching deeper with shared IP addresses, they pose an risk of incurring ratelimits
+  and potential Cloudflare bans. When an service runs an large amount of bots on one IP address, all of the those requests to Discord are sent so frequently that
+  ratelimits trip, resulting in the infamous HTTP 429 error. If this continues in
+  an sustained matter, then Cloudflare would issue an temporary ban. This usually
+  cripples an bot's ability to interact with Discord.
 
 - **Limited Control**: Some hosts abstract concepts of server management through
 the usage of administrative dashboards. These can be custom, or utilize Pterodactyl,
