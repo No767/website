@@ -1,10 +1,11 @@
 ---
-title: "My First Blog Post"
+title: "Thoughts on PrideBot"
 date: 2024-06-22
-description: "Welcome to my blog!"
-summary: "Why auto-syncing sucks"
-tags: ["discord"]
+description: "Thoughts and ideas on Pride Bot"
+tags: ["discord-bots"]
+draft: true
 cascade:
   showReadingTime: false
 ---
-_This_ is the content of my blog post.
+
+

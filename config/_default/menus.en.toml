@@ -16,8 +16,13 @@
  weight = 10
 
 [[main]]
+  name = "Discord.py"
+  pageRef = "dpy"
+  weight = 10
+
+[[main]]
   pre = "github"
-  url = "https://github.com/nunocoracao/blowfish"
+  url = "https://github.com/No767"
   weight = 30
 #[[main]]
 #  name = "Parent"

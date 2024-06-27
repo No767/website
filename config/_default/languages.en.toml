@@ -7,7 +7,7 @@ title = "Noelle's Cozy Corner"
   displayName = "EN"
   isoCode = "en"
   rtl = false
-  dateFormat = "2 January 2006"
+  dateFormat = "January 2 2006"
   # logo = "smaller-logo.png"
   # secondaryLogo = "img/secondary-logo.png"
   # description = "My awesome website"
@@ -17,7 +17,12 @@ title = "Noelle's Cozy Corner"
   name = "Noelle Wang"
   image = "profile.png"
   headline = "CSE undergraduate and CITRIS Educational Intern @ UC Merced"
-  bio = ""
+  bio = """
+  Noelle is a CSE and CITRIS Educational Intern at UC Merced. 
+  She works by helping to expand STEM curriculums across the Central Valley, and in her spare time,
+  she writes web applications in order to better help communites. In addition to her educational background,
+  she is an FRC robotics mentor and leads several other projects.
+  """
   links = [
     { linkedin = "https://www.linkedin.com/in/noelle-wang-61614b253/" },
     { github = "https://github.com/No767" },

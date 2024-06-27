@@ -4,4 +4,6 @@ description: "Writings of all of my blog posts"
 cascade:
   showReadingTime: false
 ---
-This section contains all my current projects.
+
+All of my blogs and writings are located here. This blog style space serves to
+host some of my thoughts for the discord.py ecosystem.
