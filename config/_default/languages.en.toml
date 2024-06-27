@@ -1,21 +1,21 @@
 languageCode = "en"
 languageName = "English"
 weight = 1
-title = "Blowfish"
+title = "Noelle's Cozy Corner"
 
 [params]
   displayName = "EN"
   isoCode = "en"
   rtl = false
   dateFormat = "2 January 2006"
-  # logo = "img/logo.png"
+  # logo = "smaller-logo.png"
   # secondaryLogo = "img/secondary-logo.png"
   # description = "My awesome website"
-  copyright = "CC-1.0 Licnese"
+  copyright = "CC0-1.0 Licnese"
 
 [author]
   name = "Noelle Wang"
-  image = "img/blowfish_logo.png"
+  image = "profile.png"
   headline = "CSE undergraduate and CITRIS Educational Intern @ UC Merced"
   bio = ""
   links = [
