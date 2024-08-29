@@ -9,56 +9,57 @@ cascade:
 
 
 {{< alert "check" >}}
-This post was originally written on Github Gist ([here](https://gist.github.com/No767/0a523ea6cd8e44210e131f5fc1aa570a)), but
-since has moved to this blog space.
+This post was originally written on discord.py server, but an in-depth version was created on
+Github Gist ([here](https://gist.github.com/No767/0a523ea6cd8e44210e131f5fc1aa570a)). This gist has
+now officially moved to this blog space.
 {{< /alert >}}
 
 When looking for hosting your bot, free services and/or providers that claim to
 support hosting Discord Bots. **Do not** use them. Why? Let me explain.
 
-## The Drawbacks
+## Drawbacks
 
 Free hosts are providers who specialize in offering an free platform to host projects.
 These providers typically aim to incentivize users who simply can't afford proper hosting
 or for people who don't know better due to inexperience. Now the points below will discuss
 motivations, and the costs that burden developers who are looking for hosting.
 
-### The "Gotchas"
+## The "Gotchas"
 
 Providers who offer an free tier typically look for users to onboard to their platform.
 These are usually in the forms of an free tier with limited options, or an 30-day upgraded tier. With limited options, and when you invest into an platform, vendor lock-in
 is in effect. In addition, you are forced to pay for this service that offers limited control, thus making it extremely hard to break free of this cycle.
-
 Examples of these limited options include:
 
-- **Poor specs**: These hosts tend to list very poor computing specs in order to
-reduce production costs. This directly affects your bot as most notably, slow bandwidth,
-frequent system instability, and lag all can pile and cripple the ability for your bot
-to operate. Examples of these include:
+### Poor Specs
 
-  - Shared IPs
-  - Shared CPUs
-  - Shared and/or low memory counts
+These hosts tend to list very poor computing specs in order to reduce production costs.
+This directly affects your bot as most notably, slow bandwidth, frequent system instability,
+lag all can pile and cripple the ability for your bot to operate. Examples of these include:
 
-    Touching deeper with shared IP addresses, they pose an risk of incurring ratelimits
-    and potential Cloudflare bans. When an service runs an large amount of bots on one IP address, all of the those requests to Discord are sent so frequently that
-    ratelimits trip, resulting in the infamous HTTP 429 error. If this continues in
-    an sustained matter, then Cloudflare would issue an temporary ban. This usually
-    cripples an bot's ability to interact with Discord.
+- Shared IPs
+- Shared CPUs
+- Shared and/or low memory counts
 
-- **Limited Control**: Some hosts abstract concepts of server management through
-the usage of administrative dashboards. These can be custom, or utilize Pterodactyl,
-which itself has many known issues. With these limited controls, your ability to debug
-and/or provide information critical for debugging are obfuscated. Not only you lose
-the ability to debug, but your control on operations. It's simply not worth to lose
-this ability for convenience, and better to invest time in learning basic Linux commands
-and concepts.
+Touching deeper with shared IP addresses, they pose an risk of incurring ratelimits and potential Cloudflare bans.
+When an service runs an large amount of bots on one IP address, all of the those requests to Discord are sent so frequently that ratelimits trip,
+resulting in the infamous HTTP 429 error. If this continues in an sustained matter, then Cloudflare would issue an temporary ban. This usually
+cripples an bot's ability to interact with Discord.
 
-- **Economic Competition**: Chances are, there are a lot of these providers out there.
-By offering lower prices and free tiers, businesses aim to reduce total production costs
-and invoke competition. Hosts are really just business entities, and in order to be successful, an business must either break even or make economic profits in the short and long run. This is simply how the market operates. Be aware of this as they use an variety of tactics in order to grab the attention of developers who are desperate for hosting.
+### Limited Control
 
-### Implications of Poor Hosts
+Some hosts abstract concepts of server management through the usage of administrative dashboards. These can be custom, or utilize Pterodactyl,
+which itself has many known issues. With these limited controls, your ability to debug and/or provide information critical for debugging are obfuscated.
+Not only you lose the ability to debug, but your control on operations. It's simply not worth to lose this ability for convenience,
+and better to invest time in learning basic Linux commands and concepts.
+
+### Economic Competition
+
+Chances are, there are a lot of these providers out there. By offering lower prices and free tiers, businesses aim to reduce total production costs and invoke competition.
+Hosts are really just business entities, and in order to be successful, an business must either break even or make economic profits in the short and long run.
+This is simply how the market operates. Be aware of this as they use an variety of tactics in order to grab the attention of developers who are desperate for hosting.
+
+## Implications of Poor Hosts
 
 As discussed previously, these poor hosts can usually cause issues
 in the short and long term for developers. There have been stories of
